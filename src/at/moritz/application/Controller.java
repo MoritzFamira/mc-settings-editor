@@ -405,17 +405,6 @@ public class Controller implements Initializable {
     }
     @FXML
     public void apply() throws GameNotInstalledException {
-        /*FileChooser fileChooser = new FileChooser();
-        FileChooser.ExtensionFilter extensionFilter = new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
-        fileChooser.getExtensionFilters().add(extensionFilter);
-        try {
-            fileChooser.setInitialDirectory(new File(System.getProperty("user.home") + "/AppData/Roaming/.minecraft"));
-        } catch (Exception e) {
-            System.out.println("OS is not Windows or Minecraft not installed.");
-        }
-        //fileChooser.setTitle("options");
-        fileChooser.setInitialFileName("options");
-        fileChooser.showSaveDialog(MinecraftSettingsEditor.getPrimaryStage());*/
         if (selectedProfile.equals("no Profiles...")) {
             return;
         }
